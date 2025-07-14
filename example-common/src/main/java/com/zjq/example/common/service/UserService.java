@@ -10,4 +10,8 @@ public interface UserService {
      * 获取用户
      */
     User getUser(User user);
+
+    default short getNumber(){
+        return 1;
+    }
 }
